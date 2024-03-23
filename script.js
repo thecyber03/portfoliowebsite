@@ -152,7 +152,7 @@ LOGINBTN.addEventListener("click",function(){
     
     Email.send({
     SecureToken : "5ae85ede-0721-49f6-9dd2-ac4f42182fc7",
-    To : 'mukhtar.alam458546@gmail.com',
+    To : 'azizansari8716@gmail.com',
     From : "azizansari8716@gmail.com",
     Subject : "MESSAGE FROM/aziz",
     Body : "Name : " + msgName
