@@ -128,9 +128,9 @@ LOGINBTN.addEventListener("click",function(){
  let MSGBTN = document.querySelector("#msgBtn") 
  MSGBTN.addEventListener("click",function(){
   
-   let msgName = document.querySelector(".box1MSG #name")
-   let msgEmail = document.querySelector(".box1MSG #email")
-   let msgTextArea = document.querySelector(".box1MSG #txtArea")
+   let msgName = document.querySelector(".box1MSG #name").value
+   let msgEmail = document.querySelector(".box1MSG #email").value
+   let msgTextArea = document.querySelector(".box1MSG #txtArea").value
   
    if( msgName.value.length == 0 || msgEmail.value.length == 0 ||  msgTextArea.value.length == 0){
     swal("ERROR", "Please fill Every Details", "error");
@@ -146,9 +146,7 @@ LOGINBTN.addEventListener("click",function(){
     document.querySelector(".messageIcon i").classList.replace("ri-close-circle-line" , "ri-message-2-line");
    
    
-    msgName.value = ""
-    msgEmail.value = ""
-    msgTextArea.value = ""
+  
     
     Email.send({
     SecureToken : "5ae85ede-0721-49f6-9dd2-ac4f42182fc7",
