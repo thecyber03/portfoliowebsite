@@ -207,7 +207,7 @@ function LoginPopup() {
   messageIcon.style.display = "none"
   },1000)
   };
-// LoginPopup();
+LoginPopup();
 
 let logoutBtn = document.querySelector("#logoutBtn")
 logoutBtn.addEventListener('click', (e) => {
