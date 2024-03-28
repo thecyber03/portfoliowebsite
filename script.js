@@ -128,11 +128,11 @@ LOGINBTN.addEventListener("click",function(){
  let MSGBTN = document.querySelector("#msgBtn") 
  MSGBTN.addEventListener("click",function(){
   
-   let msgName = document.querySelector(".box1MSG #name")
-   let msgEmail = document.querySelector(".box1MSG #email")
-   let msgTextArea = document.querySelector(".box1MSG #txtArea")
+   let msgName = document.querySelector(".box1MSG #name").value
+   let msgEmail = document.querySelector(".box1MSG #email").value
+   let msgTextArea = document.querySelector(".box1MSG #txtArea").value
   
-   if( msgName.value.length == 0 || msgEmail.value.length == 0 ||  msgTextArea.value.length == 0){
+   if( msgName.length == 0 || msgEmail.length == 0 ||  msgTextArea.length == 0){
     swal("ERROR", "Please fill Every Details", "error");
     navigator.vibrate(200)
    }else{
